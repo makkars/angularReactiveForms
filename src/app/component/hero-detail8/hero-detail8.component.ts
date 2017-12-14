@@ -12,6 +12,9 @@ import { Input } from '@angular/core';
   styleUrls: ['./hero-detail8.component.css']
 })
 export class HeroDetail8Component implements OnInit {
+  ngOnInit(): void {
+    throw new Error("Method not implemented.");
+  }
 
   @Input() hero: Hero;
 
