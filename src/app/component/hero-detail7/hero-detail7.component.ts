@@ -45,4 +45,12 @@ export class HeroDetail7Component implements OnInit {
     const addressFormArray = this.fb.array(addressFGs);
     this.heroForm.setControl('secretLairs', addressFormArray);
   }
+
+  get secretLairs(): FormArray {
+    return this.heroForm.get('secretLairs') as FormArray;
+  };
+
+  addLair() {
+    this.secretLairs.push(this.fb.group(new Address()));
+  }
 }
