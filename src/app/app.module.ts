@@ -12,6 +12,7 @@ import { HeroDetail4Component } from './component/hero-detail4/hero-detail4.comp
 import { HeroDetail5Component } from './component/hero-detail5/hero-detail5.component';
 import { HeroDetail6Component } from './component/hero-detail6/hero-detail6.component';
 import { HeroListComponent } from './component/hero-list/hero-list.component';
+import { HeroDetail7Component } from './component/hero-detail7/hero-detail7.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HeroListComponent } from './component/hero-list/hero-list.component';
     HeroDetail4Component,
     HeroDetail5Component,
     HeroDetail6Component,
-    HeroListComponent
+    HeroListComponent,
+    HeroDetail7Component
   ],
   imports: [
     BrowserModule,
